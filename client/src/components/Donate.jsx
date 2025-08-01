@@ -1,5 +1,3 @@
-"use client"
-
 import { useState, useEffect, useCallback } from "react"
 import "../styles/donate.css"
 
@@ -24,7 +22,7 @@ export default function Donate() {
       <div className="donate-card">
         <h1 className="donate-title">Support my work</h1>
         <p className="donate-description">
-          All the money donated will go toward maintaining server and supporting my works.
+          All the donated money will go toward maintaining server and supporting my works.
         </p>
 
         <div className="method-tabs">
